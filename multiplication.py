@@ -18,7 +18,7 @@ def multiplication(input_stream=sys.stdin, output_stream=sys.stdout, stats_log=s
                     counter += 1
                     break
                 else:
-                    output_stream.write("nope... try again!!"+os.linesep)
+                    output_stream.write("sorry... try again!!"+os.linesep)
         if counter % turn_size == 0:
             tnow = datetime.now()
             stats_log.write(str(tnow - t0)+os.linesep)
