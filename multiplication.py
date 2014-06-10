@@ -7,8 +7,8 @@ def multiplication(input_stream=sys.stdin, output_stream=sys.stdout, stats_log=s
     counter = 1
     t0 = datetime.now()
     while True:
-        num1 = random.randint(11, 99)
-        num2 = random.randint(11, 99)
+        num1 = random.randint(101, 999)
+        num2 = random.randint(101, 999)
         result = ''
         while not result == num1*num2:
             result = get_user_result(input_stream, output_stream, "%s x %s = "% (num1, num2))
