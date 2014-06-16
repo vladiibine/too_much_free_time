@@ -22,6 +22,6 @@ to_small = ''.join(
 # print from_small
 # print to_small
 trans = string.maketrans(from_small, to_small)
-result = string.translate(secret, trans)
+translated_string = string.translate(secret, trans)
 
-print result
+print translated_string
